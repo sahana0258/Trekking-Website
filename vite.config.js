@@ -5,7 +5,6 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react()],
   base: '/Trekking-Website/', 
-  server:{
-    port:5173
-  }
+
 })
+
