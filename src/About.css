@@ -1,0 +1,25 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    gap:15px;
+    font-size: 27px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(homeimg.jpg);
+    padding: 10px;
+    border: 1px solid darkgreen;
+}
+h3{
+    color: rgb(104, 147, 4);
+}
+#un-list{
+    padding-left: 25px;
+}
+p{
+    font-family:'Trebuchet MS';
+}
+#end{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: rgb(61, 69, 53);
+}

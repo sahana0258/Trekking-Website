@@ -1,0 +1,1 @@
+import Netravati from "../assets/netravati.jpg"
