@@ -50,7 +50,7 @@ img{
     margin-right: 20px;
 }
 .card-content{
-    gap: 15px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -125,7 +125,7 @@ img{
   }
 }
 
-/* Mobile */
+
 @media (max-width: 600px) {
   .destination-container {
     grid-template-columns: 1fr;
@@ -135,6 +135,6 @@ img{
   }
 
   .trek-card {
-    width: 100%; /* your 90% width shrinks cards awkwardly on narrow screens */
+    width: 100%; 
   }
 }
