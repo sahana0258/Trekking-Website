@@ -13,10 +13,10 @@ function Destination(){
         <div className="destination-container">
         
         <div className="treklogo">
-        <Link to="/destination" id="trek-logo">{<GiMountainRoad size={40}/>}TrekKarnataka</Link>
+        <Link to="/destination" id="trek-logo">{<GiMountainRoad size={28}/>}TrekKarnataka</Link>
         </div>
         <div>
-        <h6 className="h6">Destinations</h6>
+        <h1 id="about-us">Destination</h1>
         </div>
         <div >
         <p id="popular-link">Popular Destination</p>
@@ -102,7 +102,7 @@ function Destination(){
         </div>
 
         <div className="popular-destination">
-            <h5 className="PD">Popular Destination</h5>
+            <h5 id="PD">Popular Destination</h5>
             <div className="pd-content">
             <Link to="/kumaraparvatha" className="popular-trek">Kumara Parvatha trek</Link>
             <Link to="/kudremukh" className="popular-trek">Kudremukh Peak trek</Link>

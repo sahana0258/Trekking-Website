@@ -30,52 +30,31 @@
    
 }
 
-/* .link{
-    color: darkgreen;
-    font-size: 30px;
-    font-family: cursive;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-decoration: none;
-}
-.link:hover{
-    color: orangered;
-} */
-
 #trek-logo{
     font-family: monospace;
     font-size: 30px;
-    transform: scale(1);
+    transform: scale(3);
     text-decoration: none;
     color: darkgreen;
 }
 .h6{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
-    transform: scale(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 #popular-link{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
     color: darkgreen;
-    grid-column: 1/-1;
-}
-
-
-
-/* .nav-link{
-    color: rgb(2, 66, 49);
-    font-size: 20px;
-    font-family: fantasy;
-    padding:10px;
     display: flex;
-    /* align-items: flex-end; */
-    /* justify-content: flex-end;
-    justify-content: space-evenly;
-} */ 
+    justify-content: flex-end;
+    transform: scale(1.7);  
+    transform-origin: top right;
+    transform-origin: top bottom;
+    color: darkgreen;
+    font-weight: bold;
+}
 .trek-card{
     display: flex;
     justify-content: center;
@@ -131,21 +110,46 @@ img{
 .popular-destination{
     display: flex;
     flex-direction: column;
-    transform: translateY(0%);
-    justify-content: center;
-    transform: translateY(-40%);
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transform: translateY(-100px);
 }
 .popular-trek{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 20px;
     color: beige;
     font-family: monospace;
-    font-size: 30px;
-   
+
 }
-.PD{
+.pd-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 20px;
+}
+#PD{
+    transform: scale(2);
     color: rgb(106, 166, 11);
-    font-size: 40px;
+    transform: scale(1);
+    transform-origin: top ;
+    margin-left: 20px;
+}
+
+@media (max-width:768px){
+    .trek-card{
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+@media(min-width: 769px)and(max-width:1024px){
+    .trek-card{
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
 }

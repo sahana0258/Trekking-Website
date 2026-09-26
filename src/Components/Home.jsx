@@ -26,7 +26,7 @@ function Home(){
  
 
         <div>
-            <p id="para">Explore the <span>beauty of Karnataka</span> through exciting treks, scenic hills, lush forest and unforgettable adventures.
+            <p id="para">Explore the beauty of Karnataka through exciting treks, scenic hills, lush forest and unforgettable adventures.
             Your journey into Karnataka's beautiful landscapes begins here.
             Explore, trek and create memories.</p>
         </div>
