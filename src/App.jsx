@@ -19,6 +19,9 @@ import Kodachadri from './Pages/Kodachadri.jsx';
 import Tadiandamol from './Pages/Tadiandamol.jsx';
 
 
+
+
+
 function App() {
   return (
     <>
@@ -35,7 +38,7 @@ function App() {
         <Route path="/kumaraparvatha" element={<KumaraParvatha/>}></Route>
         <Route path="/netravati" element={<Natravati/>}></Route>
         <Route path="/kodachadri" element={<Kodachadri/>}></Route>
-        <Route path="/tadiandamol" element={<Tadiandamol/>}></Route> 
+        <Route path="/tadiandamol" element={<Tadiandamol/>}></Route>   
       </Routes>
     </Router>
   </>
