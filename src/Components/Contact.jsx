@@ -22,10 +22,10 @@ function Contact(){
 
             <h1>Contact Us</h1><br></br>
             <Link to="/phone"><MdAddCall id="phn-icon" size={27} color="darkgreen"/></Link>
-            <p id="phn-num">+91 9353103950</p><br></br>
+            <p className="phn-em">+91 9353103950</p><br></br>
 
             <Link to="/email"><MdOutlineEmail id="email-icon"size={27} color="darkgreen"/></Link>
-            <p id="email-id">trekkarnataka258@gmail.com</p><br></br>
+            <p className="phn-em">trekkarnataka258@gmail.com</p><br></br>
 
             <h4>Follow Us</h4><br></br>     
             <div className="follow-us">

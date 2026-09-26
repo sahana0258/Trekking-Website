@@ -1,113 +1,115 @@
 import { GiMountainRoad } from "react-icons/gi";
 import{Link} from "react-router-dom";
 import '../Destination.css'
-import Kudremukh from "../assets/kudure.jpg"
-import KumaraParvata from "../assets/kumaraparvata.jpg"
-import Bandaje from "../assets/bandaje.jpg"
-import Netravati from "../assets/netravati.jpg"
-import Kodachadri from "../assets/kodachadri.jpg"
-import Tadiandamol from "../assets/tadiandamol.jpg"
+import Kudre from "../assets/kudre.jpg"
+import Bdj from "../assets/bandaje.jpg"
+import KP from "../assets/kp.jpg"
+import Netra from "../assets/netravati.jpg"
+import Koda from "../assets/kodachadri.jpg"
+import Tadi from "../assets/tadiandamol.jpg"
 function Destination(){
     return(
         <>
         <div className="destination-container">
         
-      
-        <Link to="/destination"className="link">{<GiMountainRoad size={40}/>}TrekKarnataka</Link>
-        <h1>Destinations</h1>
-
-
-        <div className="pop-dd">
-            <a href="/populardestination" className="nav-link">Popular Destination</a>
-            <a href="/destinationdetails" className="nav-link">Destinations Details</a>
+        <div className="treklogo">
+        <Link to="/destination" id="trek-logo">{<GiMountainRoad size={40}/>}TrekKarnataka</Link>
         </div>
+        <div>
+        <h6 className="h6">Destinations</h6>
+        </div>
+        <div >
+        <p id="popular-link">Popular Destination</p>
+        </div>
+     
 
         <div className="trek-card">
-            <img src={Kudremukh} alt="kudremukh-img" width={100} height={100}></img>
+            <img src={Kudre} alt="kudremukh-img" width={100} height={100}></img>
             <div className="card-content">
-                <h4>Kudremukha Trek</h4>
-                <p>Chikkamangaluru</p>
-                <p>₹5999</p>
-                <p>Moderate</p>
-                <p>14-15km</p>
-                <p>7-8hrs</p>
+                <h4 className="h4">Kudremukha Trek</h4>
+                <p className="content-list">Chikkamangaluru</p>
+                <p className="content-list">₹5999</p>
+                <p className="content-list">Moderate</p>
+                <p className="content-list">20-22km</p>
+                <p className="content-list">6-8hrs</p>
                 <Link to="/kudremukh" className="btn">View More</Link> 
             </div>
         </div>
 
         <div className="trek-card">
-            <img src={Bandaje} alt="bandaje-img" width={100} height={100}></img>
+            <img src={Bdj} alt="bandaje-img" width={100} height={100}></img>
             <div className="card-content">
-                <h4>Bandaje Trek</h4>
-                <p>Chikkamangaluru</p>
-                <p>₹5999</p>
-                <p>Moderate</p>
-                <p>14-15km</p>
-                <p>7-8hrs</p>
-                <Link to="/Bandajje" className="btn">View More</Link> 
+                <h4 className="h4">Bandaje Trek</h4>
+                <p className="content-list">Chikkamangaluru</p>
+                <p className="content-list">₹4999</p>
+                <p className="content-list">Moderate</p>
+                <p className="content-list">6-7km</p>
+                <p className="content-list">7-8hrs</p>
+                <Link to="/bandaje" className="btn">View More</Link> 
             </div>
         </div>
         <div className="trek-card">
-            <img src={KumaraParvata} alt="kumara-img" width={100} height={100}></img>
+            <img src={KP} alt="kp-img" width={100} height={100}></img>
             <div className="card-content">
-                <h4>Kumara Parvatha</h4>
-                <p>Kodagu</p>
-                <p>₹6999</p>
-                <p>Difficult</p>
-                <p>20-22km</p>
-                <p>14-18hrs</p>
-                <Link to="/KumaraParvatha" className="btn">View More</Link>  
-            </div>
-        </div>
-
-        <div className="trek-card">
-            <img src={Netravati} alt="netravati-img" width={100} height={100}></img>
-            <div className="card-content">
-                <h4>Netravati Peak Trek</h4>
-                <p></p>
-                <p>₹6999</p>
-                <p>Difficult</p>
-                <p>20-22km</p>
-                <p>14-18hrs</p>
-                <Link to="/Netravati" className="btn">View More</Link>
+                <h4 className="h4">Kumara Parvatha</h4>
+                <p className="content-list">Kukke Subramanya</p>
+                <p className="content-list">₹6999</p>
+                <p className="content-list">Difficult</p>
+                <p className="content-list"> 25-28km</p>
+                <p className="content-list">14-18hrs</p>
+              
+                <Link to="/kumaraparvatha" className="btn">View More</Link>  
             </div>
         </div>
 
         <div className="trek-card">
-            <img src={Kodachadri}alt="kodachadri-img" width={100} height={100}></img>
+            <img src={Netra} alt="netravati-img" width={100} height={100}></img>
             <div className="card-content">
-                <h4>Kodachadri</h4>
-                <p></p>
-                <p>₹6999</p>
-                <p>Difficult</p>
-                <p>20-22km</p>
-                <p>14-18hrs</p>
-                <Link to="/Kodachadri" className="btn">View More</Link>
+                <h4 className="h4">Netravati Peak Trek</h4>
+                <p className="content-list">Chikkamangaluru</p>
+                <p className="content-list">₹4999</p>
+                <p className="content-list">Moderate</p>
+                <p className="content-list">12-14km</p>
+                <p className="content-list">5-7hrs</p>
+                <Link to="/netravati" className="btn">View More</Link>
             </div>
         </div>
 
         <div className="trek-card">
-            <img src={Tadiandamol} alt="tadiandamol-img" width={100} height={100}></img>
+            <img src={Koda}alt="kodachadri-img" width={100} height={100}></img>
             <div className="card-content">
-                <h4>Tadiandamol</h4>
-                <p></p>
-                <p>₹6999</p>
-                <p>Difficult</p>
-                <p>20-22km</p>
-                <p>14-18hrs</p>
-                <Link to="/Tadiandamol" className="btn">View More</Link>
+                <h4 className="h4">Kodachadri</h4>
+                <p className="content-list">Shivamogga</p>
+                <p className="content-list">₹4599</p>
+                <p className="content-list">Moderate</p>
+                <p className="content-list">10-12km</p>
+                <p className="content-list">5-6hrs</p>
+                <Link to="/kodachadri" className="btn">View More</Link>
+            </div>
+        </div>
+
+        <div className="trek-card">
+            <img src={Tadi} alt="tadiandamol-img" width={100} height={100}></img>
+            <div className="card-content">
+                <h4 className="h4">Tadiandamol</h4>
+                <p className="content-list"> Kodagu(Coorg)</p>
+                <p className="content-list">₹3999</p>
+                <p className="content-list" >Moderate</p>
+                <p className="content-list">~14km</p>
+                <p className="content-list">5-7hrs</p>
+                <Link to="/tadiandamol" className="btn">View More</Link>
             </div>
         </div>
 
         <div className="popular-destination">
-            <h5>Popular Destination</h5>
+            <h5 className="PD">Popular Destination</h5>
             <div className="pd-content">
             <Link to="/kumaraparvatha" className="popular-trek">Kumara Parvatha trek</Link>
             <Link to="/kudremukh" className="popular-trek">Kudremukh Peak trek</Link>
             <Link to="/netravati" className="popular-trek">Netravati Peak trek</Link>
             <Link to="/kodachadri" className="popular-trek">Kodachadri trek</Link>
             </div>
-        </div>
+        </div> 
 
 
         

@@ -11,15 +11,12 @@ import About from './Components/About.jsx'
 import Destination from './Components/Destination.jsx'
 import Contact from './Components/Contact.jsx'
 
-// import Kudremukh from "./Pages/Kudremukh.jsx";
-// import Bandaje from './Pages/Bandaje.jsx';
-// import KumaraParvatha from './Pages/KumaraParvatha.jsx';
-// import Natravati from './Pages/Netravati.jsx';
-// import Kodachadri from './Pages/Kodachadri.jsx';
-// import Tadiandamol from './Pages/Tadiandamol.jsx';
-
-
-
+import Kudremukh from "./Pages/Kudremukh.jsx";
+import Bandaje from './Pages/Bandaje.jsx';
+import KumaraParvatha from './Pages/KumaraParvatha.jsx';
+import Natravati from './Pages/Netravati.jsx';
+import Kodachadri from './Pages/Kodachadri.jsx';
+import Tadiandamol from './Pages/Tadiandamol.jsx';
 
 
 function App() {
@@ -33,12 +30,12 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/destination" element={<Destination />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
-        {/* <Route path="/kudremukh" element={<Kudremukh/>}></Route>  */}
-        {/* <Route path="/bandaje" element={<Bandaje/>}></Route>
+        <Route path="/kudremukh" element={<Kudremukh/>}></Route> 
+        <Route path="/bandaje" element={<Bandaje/>}></Route>
         <Route path="/kumaraparvatha" element={<KumaraParvatha/>}></Route>
         <Route path="/netravati" element={<Natravati/>}></Route>
         <Route path="/kodachadri" element={<Kodachadri/>}></Route>
-        <Route path="/tadiandamol" element={<Tadiandamol/>}></Route> */}
+        <Route path="/tadiandamol" element={<Tadiandamol/>}></Route> 
       </Routes>
     </Router>
   </>
