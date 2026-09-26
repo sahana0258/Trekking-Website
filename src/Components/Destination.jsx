@@ -11,18 +11,7 @@ function Destination(){
     return(
         <>
         <div className="destination-container">
-        
-        <div className="treklogo">
-        <Link to="/destination" id="trek-logo">{<GiMountainRoad size={28}/>}TrekKarnataka</Link>
-        </div>
-        <div>
-        <h1 id="about-us">Destination</h1>
-        </div>
-        <div >
-        <p id="popular-link">Popular Destination</p>
-        </div>
-     
-
+         
         <div className="trek-card">
             <img src={Kudre} alt="kudremukh-img" width={100} height={100}></img>
             <div className="card-content">

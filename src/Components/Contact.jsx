@@ -20,14 +20,14 @@ function Contact(){
     
         <div className="con-folw">
 
-            <h1>Contact Us</h1><br></br>
-            <Link to="/phone"><MdAddCall id="phn-icon" size={27} color="darkgreen"/></Link>
+            <h1 className="contact-us">Contact Us</h1><br></br>
+            <Link to="/phone"><MdAddCall className="phn-em-icon" size={27} color="darkgreen"/></Link>
             <p className="phn-em">+91 9353103950</p><br></br>
 
-            <Link to="/email"><MdOutlineEmail id="email-icon"size={27} color="darkgreen"/></Link>
+            <Link to="/email"><MdOutlineEmail className="phn-em-icon"size={27} color="darkgreen"/></Link>
             <p className="phn-em">trekkarnataka258@gmail.com</p><br></br>
 
-            <h4>Follow Us</h4><br></br>     
+            <h4 id="follow">Follow Us</h4><br></br>     
             <div className="follow-us">
             <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener noreferrer" ><FaInstagramSquare className="iyf-icon" size={35} color="darkgreen"/></a>
             <a href="https://www.youtube.com/" target="_balnk" rel="noopener noreferrer"><FaYoutube className="iyf-icon" size={35} color="darkgreen" /></a>
@@ -36,7 +36,7 @@ function Contact(){
         </div>
 
         <div classsName="feedback-form">
-            <h4>Feedback</h4><br></br>
+            <h4 id="feedback">Feedback</h4>
             <form id="form">
                 <label>Name</label>
                 <input type="name" className="placeholder" placeholder=" Enter your name"></input><br></br>

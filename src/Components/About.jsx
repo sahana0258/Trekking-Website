@@ -5,7 +5,7 @@ function About(){
     return(
         <>
         <div className="about-container">
-        <h1 id="about-us">About Us</h1><br></br>
+        <h1 className="about-us">About Us</h1><br></br>
 
         <div className="about-content">
         <p className="par">Welcome to TrekKarnataka, a trekking and adventure platform created for people who love nature, travel and adventure.</p>

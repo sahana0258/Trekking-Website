@@ -24,7 +24,7 @@
     border: 1px solid darkgreen;
    
 }
-#about-us{
+.about-us{
     display: flex;
     justify-content: center;
     align-items: center;
