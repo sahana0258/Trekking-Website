@@ -130,6 +130,7 @@
     flex-direction: column;
     gap: 10px;
     transform: scale(1);
+    color: beige;
 }
 .p{
     font-family:'Trebuchet MS';
