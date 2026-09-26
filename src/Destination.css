@@ -20,6 +20,14 @@
     grid-auto-rows: 250px;
 
     border: 2px solid darkgreen;
+    min-height: 100vh;
+    height:auto;
+    overflow: visible;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
 }
 
 /* .link{
@@ -38,13 +46,15 @@
 
 #trek-logo{
     font-family: monospace;
-    font-size: 40px;
+    font-size: 30px;
+    transform: scale(1);
     text-decoration: none;
     color: darkgreen;
 }
 .h6{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 40px;
+    transform: scale(1);
     
 }
 #popular-link{
