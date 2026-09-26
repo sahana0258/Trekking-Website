@@ -115,3 +115,26 @@ img{
     transform: translateY(-10%);
 } 
 
+/* Tablet */
+@media (max-width: 1024px) {
+  .destination-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220px;
+    gap: 10px;
+    padding: 16px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .destination-container {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 200px;
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .trek-card {
+    width: 100%; /* your 90% width shrinks cards awkwardly on narrow screens */
+  }
+}
