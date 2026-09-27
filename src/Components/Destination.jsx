@@ -54,7 +54,7 @@ function Destination(){
         <div className="trek-card">
             <img src={Netra} alt="netravati-img" width={100} height={100}></img>
             <div className="card-content">
-                <h4 className="h4">Netravati Peak Trek</h4>
+                <h4 className="h4">Netravati Trek</h4>
                 <p className="content-list">Chikkamangaluru</p>
                 <p className="content-list">₹4999</p>
                 <p className="content-list">Moderate</p>
