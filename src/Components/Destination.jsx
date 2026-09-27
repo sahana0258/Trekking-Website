@@ -67,7 +67,7 @@ function Destination(){
         <div className="trek-card">
             <img src={Koda}alt="kodachadri-img" width={100} height={100}></img>
             <div className="card-content">
-                <h4 className="h4">Kodachadri</h4>
+                <h4 className="h4">Kodachadri Trek</h4>
                 <p className="content-list">Shivamogga</p>
                 <p className="content-list">₹4599</p>
                 <p className="content-list">Moderate</p>
@@ -80,7 +80,7 @@ function Destination(){
         <div className="trek-card">
             <img src={Tadi} alt="tadiandamol-img" width={100} height={100}></img>
             <div className="card-content">
-                <h4 className="h4">Tadiandamol</h4>
+                <h4 className="h4">Tadiandamol Trek</h4>
                 <p className="content-list"> Kodagu(Coorg)</p>
                 <p className="content-list">₹3999</p>
                 <p className="content-list" >Moderate</p>
