@@ -37,7 +37,7 @@ function Contact(){
 
         <div classsName="feedback-form">
             <h4 id="feedback">Feedback</h4>
-            <form id="form">
+            <form className="form">
                 <label>Name</label>
                 <input type="name" className="placeholder" placeholder=" Enter your name"></input><br></br>
 
