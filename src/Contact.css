@@ -1,0 +1,110 @@
+.contact-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: center;
+    
+
+   
+    background-image: url(homeimg.jpg);
+    background-image: url(homeimg.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid  darkgreen;
+
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-us{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .con-flow{
+   display: flex;
+   justify-content: flex-start;
+   
+}
+ .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    padding: 2%;
+    margin: 20px;
+
+    border: 2px solid rgb(13, 13, 13);
+    width:300px;
+    height:500px ;
+    color: white;
+    font-size:clamp(1pc,1vw,2px);
+    font-family:monospace;
+    background-color: rgba(0, 0,0, 0.0);
+    border-radius: 20px;
+    font-weight: bold;
+} 
+
+ #btn{
+    background-color: darkgreen;
+    color: antiquewhite;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#rst{
+    background-color: rgba(0, 0,0, 0.0);
+    border: 2px solid rgb(238, 241, 239) ;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: rgb(8, 240, 8);
+}
+.placeholder{
+    font-weight: 40%px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:2px solid rgb(9, 9, 9);
+    height: 10%;
+    border-radius: 2px;
+    background-color: rgba(243, 240, 240, 0);
+    color: rgb(241, 236, 236);
+    font-weight: bold;
+}
+#feedback{
+    color: rgb(19, 19, 19);
+    font-size:clamp(20px,15vw,20px);
+    margin-left: 35%;
+}
+#follow{
+    margin-left: 10%;
+    font-size:clamp(20px,15vw,20px);
+}
+
+.follow-us{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-left: 10%;
+}
+h1{
+    color: darkgreen;
+    margin: 5%;
+}
+.phn-em{
+    color: rgb(8, 8, 8);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10%;
+} 
+.phn-em-icon{
+    margin-left: 10%;
+
+}
+
+
