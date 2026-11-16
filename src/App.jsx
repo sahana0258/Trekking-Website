@@ -6,10 +6,11 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import './App.css'
 
-import Home from './Components/Home.jsx'
-import About from './Components/About.jsx'
-import Destination from './Components/Destination.jsx'
-import Contact from './Components/Contact.jsx'
+import Home from './Components/Home.jsx';
+import About from './Components/About.jsx';
+import Destination from './Components/Destination.jsx';
+import Contact from './Components/Contact.jsx';
+import Register from "./Components/Register.jsx";
 
 import Kudremukh from "./Pages/Kudremukh.jsx";
 import Bandaje from './Pages/Bandaje.jsx';
@@ -33,14 +34,19 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/destination" element={<Destination />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/register" element={<Register/>}></Route>
+
         <Route path="/kudremukh" element={<Kudremukh/>}></Route> 
         <Route path="/bandaje" element={<Bandaje/>}></Route>
         <Route path="/kumaraparvatha" element={<KumaraParvatha/>}></Route>
         <Route path="/netravati" element={<Natravati/>}></Route>
         <Route path="/kodachadri" element={<Kodachadri/>}></Route>
-        <Route path="/tadiandamol" element={<Tadiandamol/>}></Route>   
+        <Route path="/tadiandamol" element={<Tadiandamol/>}></Route> 
+         
+
       </Routes>
     </Router>
+
   </>
     
   );

@@ -16,7 +16,9 @@ function Home(){
         <Link to="/about" className="nav">About</Link>
         <Link to="/destination" className="nav">Destination</Link>
         <Link to="/contact" className="nav">Contact</Link>
-        </div>
+        <Link to="/register" className="nav">Registration</Link>
+
+    </div>
         
         <div className="hero">
         <Link to="/"><GiMountainRoad id="moun-icon" size={40} color="black"/></Link>
